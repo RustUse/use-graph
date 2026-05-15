@@ -1,0 +1,17 @@
+[package]
+name = "use-node"
+description = "Primitive node identifiers and node helpers"
+publish = true
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+documentation = "https://docs.rs/use-node"
+keywords = ["graph", "node", "identifier"]
+categories = ["algorithms", "science"]
+
+[lints]
+workspace = true

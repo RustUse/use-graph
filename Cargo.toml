@@ -1,0 +1,36 @@
+[workspace]
+members = [
+    "crates/use-graph",
+    "crates/use-node",
+    "crates/use-edge",
+    "crates/use-adjacency",
+    "crates/use-graph-traversal",
+    "crates/use-graph-path",
+    "crates/use-weighted-graph",
+    "crates/use-graph-metrics",
+]
+resolver = "2"
+
+[workspace.package]
+authors = ["RustUse Contributors"]
+edition = "2024"
+homepage = "https://rustuse.org"
+license = "MIT OR Apache-2.0"
+publish = false
+readme = "README.md"
+repository = "https://github.com/RustUse/use-graph"
+rust-version = "1.95.0"
+version = "0.0.1"
+
+[workspace.dependencies]
+use-adjacency = { version = "0.0.1", path = "crates/use-adjacency" }
+use-edge = { version = "0.0.1", path = "crates/use-edge" }
+use-graph = { version = "0.0.1", path = "crates/use-graph" }
+use-graph-metrics = { version = "0.0.1", path = "crates/use-graph-metrics" }
+use-graph-path = { version = "0.0.1", path = "crates/use-graph-path" }
+use-graph-traversal = { version = "0.0.1", path = "crates/use-graph-traversal" }
+use-node = { version = "0.0.1", path = "crates/use-node" }
+use-weighted-graph = { version = "0.0.1", path = "crates/use-weighted-graph" }
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
