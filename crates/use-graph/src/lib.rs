@@ -36,8 +36,8 @@ pub use use_weighted_graph::*;
 #[cfg(test)]
 mod tests {
     use super::{
-        build_directed_adjacency, max_degree, node_ids, path_weight, shortest_path_unweighted,
-        WeightedEdge,
+        WeightedEdge, build_directed_adjacency, max_degree, node_ids, path_weight,
+        shortest_path_unweighted,
     };
 
     #[test]

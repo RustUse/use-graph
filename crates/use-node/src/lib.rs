@@ -59,7 +59,7 @@ pub fn unique_nodes(nodes: &[NodeId]) -> Vec<NodeId> {
 
 #[cfg(test)]
 mod tests {
-    use super::{contains_node, node_ids, unique_nodes, NodeId};
+    use super::{NodeId, contains_node, node_ids, unique_nodes};
 
     #[test]
     fn creates_node_ids() {

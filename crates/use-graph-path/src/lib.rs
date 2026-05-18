@@ -151,7 +151,7 @@ pub fn is_valid_path(adjacency: &[Vec<usize>], path: &[usize]) -> Result<bool, P
 
 #[cfg(test)]
 mod tests {
-    use super::{is_valid_path, shortest_path_unweighted, Path, PathError};
+    use super::{Path, PathError, is_valid_path, shortest_path_unweighted};
 
     #[test]
     fn constructs_paths_and_reports_basic_properties() {

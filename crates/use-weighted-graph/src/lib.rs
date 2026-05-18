@@ -135,8 +135,8 @@ pub fn max_weight_edge(edges: &[WeightedEdge]) -> Option<WeightedEdge> {
 #[cfg(test)]
 mod tests {
     use super::{
-        build_weighted_directed_adjacency, build_weighted_undirected_adjacency, max_weight_edge,
-        min_weight_edge, path_weight, WeightedEdge, WeightedGraphError,
+        WeightedEdge, WeightedGraphError, build_weighted_directed_adjacency,
+        build_weighted_undirected_adjacency, max_weight_edge, min_weight_edge, path_weight,
     };
 
     #[test]

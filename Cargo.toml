@@ -34,3 +34,26 @@ use-weighted-graph = { version = "0.0.1", path = "crates/use-weighted-graph" }
 
 [workspace.lints.rust]
 unsafe_code = "forbid"
+[workspace.metadata.rustuse.release]
+publish = false
+versioning = "lockstep-0.x"
+first-publish-candidates = [
+    "use-node",
+    "use-edge",
+    "use-adjacency",
+    "use-graph-traversal",
+    "use-graph-path",
+    "use-weighted-graph",
+    "use-graph-metrics",
+    "use-graph",
+]
+[workspace.lints.clippy]
+all = { level = "warn", priority = -1 }
+cargo = { level = "warn", priority = -1 }
+expect_used = "warn"
+multiple_crate_versions = "allow"
+nursery = { level = "warn", priority = -1 }
+pedantic = { level = "warn", priority = -1 }
+todo = "deny"
+unimplemented = "deny"
+unwrap_used = "warn"

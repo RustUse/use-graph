@@ -154,7 +154,7 @@ pub fn connected_component(
 #[cfg(test)]
 mod tests {
     use super::{
-        breadth_first_order, connected_component, depth_first_order, reachable, TraversalError,
+        TraversalError, breadth_first_order, connected_component, depth_first_order, reachable,
     };
 
     #[test]

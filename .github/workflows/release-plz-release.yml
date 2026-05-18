@@ -1,6 +1,6 @@
 name: Release Publish Automation
 
-on:
+"on":
     push:
         branches:
             - main
@@ -27,7 +27,7 @@ jobs:
         runs-on: ubuntu-latest
         env:
             PUBLISHED_CRATES: >-
-                use-node use-edge use-adjacency use-graph-traversal use-graph-path use-weighted-graph use-graph-metrics use-graph
+              use-node use-edge use-adjacency use-graph-traversal use-graph-path use-weighted-graph use-graph-metrics use-graph
         steps:
             - name: Check out repository
               uses: actions/checkout@v4

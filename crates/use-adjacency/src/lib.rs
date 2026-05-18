@@ -83,8 +83,8 @@ pub fn has_edge(adjacency: &AdjacencyList, source: usize, target: usize) -> bool
 #[cfg(test)]
 mod tests {
     use super::{
-        build_directed_adjacency, build_undirected_adjacency, degree, has_edge, neighbors,
-        AdjacencyError,
+        AdjacencyError, build_directed_adjacency, build_undirected_adjacency, degree, has_edge,
+        neighbors,
     };
 
     #[test]

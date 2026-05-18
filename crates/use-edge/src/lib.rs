@@ -143,7 +143,7 @@ pub const fn has_self_loop(edge: Edge) -> bool {
 
 #[cfg(test)]
 mod tests {
-    use super::{dedupe_edges, has_self_loop, DirectedEdge, Edge, UndirectedEdge};
+    use super::{DirectedEdge, Edge, UndirectedEdge, dedupe_edges, has_self_loop};
 
     #[test]
     fn constructs_and_reverses_edges() {

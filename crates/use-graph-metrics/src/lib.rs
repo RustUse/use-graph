@@ -76,7 +76,7 @@ pub fn density_directed(adjacency: &[Vec<usize>]) -> Option<f64> {
         1 => Some(0.0),
         node_count => {
             Some(edge_count_directed(adjacency) as f64 / (node_count * (node_count - 1)) as f64)
-        }
+        },
     }
 }
 
