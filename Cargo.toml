@@ -20,17 +20,17 @@ publish = false
 readme = "README.md"
 repository = "https://github.com/RustUse/use-graph"
 rust-version = "1.95.0"
-version = "0.0.1"
+version = "0.0.2"
 
 [workspace.dependencies]
-use-adjacency = { version = "0.0.1", path = "crates/use-adjacency" }
-use-edge = { version = "0.0.1", path = "crates/use-edge" }
-use-graph = { version = "0.0.1", path = "crates/use-graph" }
-use-graph-metrics = { version = "0.0.1", path = "crates/use-graph-metrics" }
-use-graph-path = { version = "0.0.1", path = "crates/use-graph-path" }
-use-graph-traversal = { version = "0.0.1", path = "crates/use-graph-traversal" }
-use-node = { version = "0.0.1", path = "crates/use-node" }
-use-weighted-graph = { version = "0.0.1", path = "crates/use-weighted-graph" }
+use-adjacency = { version = "0.0.2", path = "crates/use-adjacency" }
+use-edge = { version = "0.0.2", path = "crates/use-edge" }
+use-graph = { version = "0.0.2", path = "crates/use-graph" }
+use-graph-metrics = { version = "0.0.2", path = "crates/use-graph-metrics" }
+use-graph-path = { version = "0.0.2", path = "crates/use-graph-path" }
+use-graph-traversal = { version = "0.0.2", path = "crates/use-graph-traversal" }
+use-node = { version = "0.0.2", path = "crates/use-node" }
+use-weighted-graph = { version = "0.0.2", path = "crates/use-weighted-graph" }
 
 [workspace.lints.rust]
 unsafe_code = "forbid"
